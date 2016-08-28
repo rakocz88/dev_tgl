@@ -1,0 +1,16 @@
+pl\pilaf\inz\model\Song.class
+pl\pilaf\json\UserLoginJson.class
+pl\pilaf\inz\model\Comment.class
+pl\pilaf\inz\wrapper\AlbumWrapper.class
+pl\pilaf\inz\wrapper\UserWrapper.class
+pl\pilaf\inz\model\UserBandJson.class
+pl\pilaf\json\UploadFile.class
+pl\pilaf\inz\model\User.class
+pl\pilaf\inz\wrapper\UserDetailsWrapper.class
+pl\pilaf\inz\model\Band.class
+pl\pilaf\enums\ReferanceType.class
+pl\pilaf\enums\UserType.class
+pl\pilaf\inz\wrapper\BandWrapper.class
+pl\pilaf\inz\wrapper\AddUserWrapper.class
+pl\pilaf\inz\wrapper\SongWrapper.class
+pl\pilaf\inz\model\Album.class
