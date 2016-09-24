@@ -1,1 +1,7 @@
-*
+tgl-app/target/*
+tgl-parent/tgl-api/target/*
+tgl-parent/tgl-biz/target/*
+tgl-parent/tgl-dao/target/*
+tgl-parent/tgl-mail/target/*
+tgl-parent/tgl-msg/target/*
+tgl-parent/tgl-test/target/*
