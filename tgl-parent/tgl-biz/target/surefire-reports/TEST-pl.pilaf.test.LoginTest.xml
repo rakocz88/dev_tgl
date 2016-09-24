@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\filip\tgl\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3616322929454332250.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\filip\tgl\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7230504060376213181.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\maven\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Ruby22\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Git\cmd;C:\Users\filip\AppData\Roaming\npm;C:\Users\filip\AppData\Roaming\npm;C:\prywatne\ide\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\maven\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Ruby22\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Git\cmd;C:\Users\filip\AppData\Roaming\npm;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\filip\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\prywatne\ide\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -49,7 +49,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_73"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\copernicus\music\music-factory-extended\tgl-parent\EMBEDDED"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="pl.pilaf.test.LoginTest" time="0.023"/>
+  <testcase name="loginWrongLoginTest" classname="pl.pilaf.test.LoginTest" time="0.023"/>
   <testcase name="loginWrongPasswordTest" classname="pl.pilaf.test.LoginTest" time="0"/>
-  <testcase name="loginWrongLoginTest" classname="pl.pilaf.test.LoginTest" time="0"/>
+  <testcase name="loginTest" classname="pl.pilaf.test.LoginTest" time="0"/>
 </testsuite>

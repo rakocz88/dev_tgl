@@ -20,8 +20,6 @@
 
     <dependencies>
 
-       
-
         <dependency>
             <groupId>com.pilaf</groupId>
             <artifactId>tgl-biz</artifactId>
@@ -44,6 +42,12 @@
             <artifactId>spring-boot-starter-data-rest</artifactId>
             <version>${spring-boot.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -53,12 +57,6 @@
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
-        </dependency>
-        
-         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <version>${spring-boot.version}</version>
         </dependency>
     </dependencies>
 
