@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pl.pilaf.tgl.BandIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.557 sec - in pl.pilaf.tgl.BandIntegrationTest
