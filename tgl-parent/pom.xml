@@ -37,7 +37,7 @@
 		<profile>
 			<id>test</id>
 			<modules>
-				<module>../tgl-app</module>
+				<module>tgl-app</module>
 				<module>tgl-test</module>
 			</modules>
 		</profile>
