@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
@@ -26,7 +25,6 @@ import pl.pilaf.tgl.constants.BandConstants;
 @SpringApplicationConfiguration(classes = Application.class)
 @WebAppConfiguration
 @IntegrationTest("server.port:9994")
-@ActiveProfiles("test")
 public class BandIntegrationTest {
 
 	@Value("${local.server.port}")
@@ -49,7 +47,6 @@ public class BandIntegrationTest {
 	@Test
 	public void is1Band() {
 		String url = "http://localhost:9994/band/all";
-		@SuppressWarnings("unchecked")
 		Band[] bandArray = when().get(url).getBody().as(Band[].class);
 		Assert.assertEquals(1, bandArray.length);
 		Band band = (Band) bandArray[0];

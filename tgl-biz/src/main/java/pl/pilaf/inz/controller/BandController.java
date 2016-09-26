@@ -47,7 +47,6 @@ public class BandController {
 
 	@RequestMapping(value = "/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<Band> findAll() {
-		bandRepository.save(new Band(0, "Janek", "Lo", null, null, null, null));
 		final List<Band> resultList = new ArrayList<>();
 		final Iterable<Band> all = bandRepository.findAll();
 		Consumer<Band> consLambda = (Band band) -> resultList.add(band);
