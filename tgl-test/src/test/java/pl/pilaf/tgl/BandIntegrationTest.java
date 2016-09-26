@@ -35,6 +35,7 @@ public class BandIntegrationTest {
 
 	@Before
 	public void init() {
+		bandRepository.deleteAll();
 		bandRepository.save(new Band(23, BandConstants.BAND_NAME, BandConstants.BAND_DESC, null, null, null, null));
 	}
 
