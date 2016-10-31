@@ -32,6 +32,9 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<modules>
+				<module>tgl-app</module>
+			</modules>
 		</profile>
 
 		<profile>
