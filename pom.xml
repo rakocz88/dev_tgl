@@ -14,7 +14,7 @@
 	<properties>
 		<project.version>0.0.1-SNAPSHOT</project.version>
 		<spring.boot.version>1.4.0.RELEASE</spring.boot.version>
-		
+
 	</properties>
 
 	<modules>
@@ -59,6 +59,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
@@ -92,7 +93,7 @@
 				<artifactId>postgresql</artifactId>
 				<version>9.1-901-1.jdbc4</version>
 			</dependency>
-		
+
 			<dependency>
 				<groupId>com.pilaf</groupId>
 				<artifactId>tgl-api</artifactId>
